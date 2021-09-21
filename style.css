@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+.btn {
+  padding: 10px;
+}
 
 .head-container{
   height: 262px;
@@ -22,6 +25,7 @@
 
 .carousel-item img {
   height: 220px;
+  filter: grayscale();
 }
 
 .logo{
@@ -36,7 +40,7 @@
 
 .bar-vert {
   width: 200px;
-  height: 40px;
+  height: 20px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -45,13 +49,13 @@
 }
 
 .bar-hor{
-  width: 20px;
-  height: 140px;
+  width: 15px;
+  height: 160px;
   background-color: rgb(255, 255, 255);
 }
 
 .mid{
-  margin: 0 20px;
+  margin: 0 25px;
 }
 
 .left{
@@ -71,26 +75,35 @@
 .offcanvas h5{
   margin-left: 10px;
   padding: 5px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .offcanvas a{
   color: white;
+  font-size: 20px;
 }
 
 .bi-list{
   height: 30px;
   width: 30px;
-  outline:none;
+}
+
+
+.title-desc {
+  padding: 20px 5px 10px 5px;
+}
+
+.title-desc p{
+  text-align: center;
 }
 
 .img-container img{
-  opacity: 50%;
+  opacity: 60%;
   width: 100vw;
 }
 
 .img-container img:hover{
-  opacity: 80%;
+  opacity: 50%;
 }
 
 .img-container img:hover  .caption-container .caption {
@@ -107,9 +120,10 @@
   position: absolute;
   font-weight: 400;
   font-size: 120px;
-  top: 50%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 
 footer {
@@ -218,7 +232,7 @@ form button {
   }
 
   .carousel-item img {
-    height: 200px;
+    height: 180px;
     width: 100vw;
   }
 
@@ -228,7 +242,7 @@ form button {
   }
 
   .caption-container .caption{
-    font-size: 40px;
+    font-size: 30px;
   }
 
   /*Contact*/
