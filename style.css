@@ -38,6 +38,23 @@
   transform: translate(-50%, -40%);
 }
 
+.logo-2{
+  display:flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.bar {
+  margin: 4px;
+  width: 50px;
+  height: 170px;
+  background-color: rgb(5, 5, 5);
+}
+
 .bar-vert {
   width: 200px;
   height: 20px;
@@ -70,6 +87,7 @@
   width: 200px;
   background-color: black;
   color: white;
+  opacity: 80%;
 }
 
 .offcanvas h5{
@@ -89,16 +107,7 @@
 }
 
 .img-container img{
-  opacity: 60%;
   width: 100vw;
-}
-
-.img-container img:hover{
-  opacity: 50%;
-}
-
-.img-container img:hover  .caption-container .caption {
-  font-weight: 500;
 }
 
 .caption-container {
@@ -106,12 +115,13 @@
 }
 
 .caption-container .caption {
-  color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
   position: absolute;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 120px;
-  top: 40%;
-  left: 10%;
+  top: 65%;
+  left: 2%;
+  opacity: 70%;
 }
 
 footer {
@@ -147,6 +157,37 @@ footer ul a{
   text-decoration: none;
   z-index: 1;
   font-weight: 400;  
+}
+
+/*About*/
+
+.content {
+  margin: 2px 10px;
+}
+
+.about-title{
+  font-size: 40px;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around ;
+  align-items: flex-start;
+  padding: 5px 0px 20px 0;
+}
+
+.team-title{
+  font-size: 30px;
+}
+
+.member{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details{
+  padding: 0px 10px 0px 0px;
 }
 
 /*Contact*/
