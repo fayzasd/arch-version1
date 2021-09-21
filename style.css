@@ -59,11 +59,11 @@
 }
 
 .left{
-  margin: 0 20px 0 0;
+  margin: 0 25px 0 0;
 }
 
 .right{
-  margin: 0 0 0 20px;
+  margin: 0 0 0 25px;
 }
 
 .offcanvas {
@@ -88,15 +88,6 @@
   width: 30px;
 }
 
-
-.title-desc {
-  padding: 20px 5px 10px 5px;
-}
-
-.title-desc p{
-  text-align: center;
-}
-
 .img-container img{
   opacity: 60%;
   width: 100vw;
@@ -112,18 +103,15 @@
 
 .caption-container {
   position: relative;
-  text-align: center;
 }
 
 .caption-container .caption {
   color: rgb(3, 3, 3);
   position: absolute;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 120px;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  top: 40%;
+  left: 10%;
 }
 
 footer {
@@ -242,7 +230,7 @@ form button {
   }
 
   .caption-container .caption{
-    font-size: 30px;
+    font-size: 60px;
   }
 
   /*Contact*/
