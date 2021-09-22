@@ -13,6 +13,11 @@
   position: relative;
 }
 
+.btn:focus{
+  outline: none !important;
+  box-shadow: none;
+}
+
 .logo-title-container{
   display: flex;
   justify-content: center;
@@ -20,7 +25,8 @@
 }
 
 .carousel-inner {
-  width: 190px;
+  width: 200px;
+  bottom: 20px;
 }
 
 .carousel-item img {
@@ -35,7 +41,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -50%);
 }
 
 .logo-2{
@@ -56,7 +62,7 @@
 }
 
 .bar-vert {
-  width: 200px;
+  width: 220px;
   height: 20px;
   background-color: rgb(255, 255, 255);
 }
@@ -66,21 +72,21 @@
 }
 
 .bar-hor{
-  width: 15px;
-  height: 160px;
+  width: 10px;
+  height: 180px;
   background-color: rgb(255, 255, 255);
 }
 
 .mid{
-  margin: 0 25px;
+  margin: 0 30px;
 }
 
 .left{
-  margin: 0 25px 0 0;
+  margin: 0 30px 0 0;
 }
 
 .right{
-  margin: 0 0 0 25px;
+  margin: 0 0 0 30px;
 }
 
 .offcanvas {
@@ -187,12 +193,30 @@ footer ul a{
 }
 
 .details{
-  padding: 0px 10px 0px 0px;
+  padding: 0px 10px 0px 0px   ;
 }
 
 /*Contact*/
+
+.contact-content {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-content h4{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.contact-content p{
+  font-size: 20px;
+}
+
 .submit-form {
-  width: 50%;
+  margin: 0 10px;
+  width: 100vw;
 }
 
 .submit-form form{
@@ -211,11 +235,10 @@ footer ul a{
 
 .submit-form .form-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .submit-form .form-control {
-  width: 50%;
   font-size: 20px;
   padding: 10px 15px;
 }
@@ -261,8 +284,8 @@ form button {
   }
 
   .carousel-item img {
-    height: 180px;
-    width: 100vw;
+    height: 200px;
+    width: 200px;
   }
 
   .img-container img {
@@ -276,22 +299,24 @@ form button {
 
   /*Contact*/
   .submit-form {
-    width: 100%;
+    width: 95vw;
   }
   
   .submit-form .form-row {
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
   .form-row .form-control {
-    width: 90%;
+    width: 95vw;
     margin-top: 5px;
   }
 
   .submit-form textarea{
     margin-top: 5px;
     height: 100px;
+    width: 95vw;
   }
 
 }
