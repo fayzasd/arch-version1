@@ -13,6 +13,11 @@
   position: relative;
 }
 
+.head-container-main{
+  height: 262px;
+  position: relative;
+}
+
 .btn:focus{
   outline: none !important;
   box-shadow: none;
@@ -26,7 +31,7 @@
 
 .carousel-inner {
   width: 200px;
-  bottom: 20px;
+  top: 160px;
 }
 
 .carousel-item img {
@@ -73,7 +78,7 @@
 
 .bar-hor{
   width: 10px;
-  height: 180px;
+  height: 220px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -280,11 +285,15 @@ form button {
   }
 
   .head-container{
-    height: 262px;
+    height: 382px;
+  }
+  
+  .head-container-main{
+    height: 682px;
   }
 
   .carousel-item img {
-    height: 200px;
+    height: 250px;
     width: 200px;
   }
 
