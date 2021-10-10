@@ -35,7 +35,7 @@
 }
 
 .carousel-item img {
-  height: 240px;
+  height: 260px;
   filter: grayscale();
 }
 
@@ -68,8 +68,8 @@
 
 .bar-vert {
   width: 62vw;
-  height: 4vh;
-  background-color: rgb(155, 255, 255);
+  height: 2vh;
+  background-color: rgb(255, 255, 255);
 }
 
 .hor{
@@ -78,8 +78,8 @@
 
 .bar-hor{
   width: 2vw;
-  height: 25vh;
-  background-color: rgb(155, 255, 255);
+  height: 30vh;
+  background-color: rgb(255, 255, 255);
 }
 
 .mid{
@@ -138,7 +138,7 @@
 .links{
   color: rgb(0,0,0);
   position: absolute;
-  top: 53vh;
+  top: 56vh;
   display: flex;
   align-items: center;
 }
