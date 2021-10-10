@@ -30,8 +30,8 @@
 }
 
 .carousel-inner {
-  width: 200px;
-  top: 160px;
+  width: 60vw;
+  top: 30vh;
 }
 
 .carousel-item img {
@@ -67,8 +67,8 @@
 }
 
 .bar-vert {
-  width: 220px;
-  height: 20px;
+  width: 62vw;
+  height: 4vh;
   background-color: rgb(255, 255, 255);
 }
 
@@ -77,21 +77,21 @@
 }
 
 .bar-hor{
-  width: 10px;
-  height: 220px;
+  width: 2vw;
+  height: 40vh;
   background-color: rgb(255, 255, 255);
 }
 
 .mid{
-  margin: 0 30px;
+  margin: 0 9vw;
 }
 
 .left{
-  margin: 0 30px 0 0;
+  margin: 0 9vw 0 0;
 }
 
 .right{
-  margin: 0 0 0 30px;
+  margin: 0 0 0 9vw;
 }
 
 .offcanvas {
@@ -133,6 +133,26 @@
   top: 65%;
   left: 2%;
   opacity: 70%;
+}
+
+.links{
+  color: rgb(0,0,0);
+  position: absolute;
+  top: 78vh;
+  display: flex;
+  align-items: center;
+}
+
+.links li{
+  list-style: none;
+  margin: 15px 0 10px 0;
+}
+
+.links li a {
+  text-decoration: none;
+  color: rgb(0,0,0);
+  padding: 0 15px 0 15px;
+  font-weight: 500;
 }
 
 footer {
