@@ -31,7 +31,7 @@
 
 .carousel-inner {
   width: 60vw;
-  top: 30vh;
+  top: 20vh;
 }
 
 .carousel-item img {
@@ -138,21 +138,23 @@
 .links{
   color: rgb(0,0,0);
   position: absolute;
-  top: 78vh;
+  top: 53vh;
   display: flex;
   align-items: center;
 }
 
 .links li{
   list-style: none;
-  margin: 15px 0 10px 0;
+  margin: 1.5vh 0 1vh 0;
+  text-align: center;
 }
 
 .links li a {
+  
   text-decoration: none;
   color: rgb(0,0,0);
-  padding: 0 15px 0 15px;
-  font-weight: 500;
+  padding: 0 2vw 0 2vw;
+  font-weight: 700;
 }
 
 footer {
@@ -303,27 +305,9 @@ form button {
     font-size: 17px;
     height: 50px; 
   }
-
-  .head-container{
-    height: 382px;
-  }
   
   .head-container-main{
     height: 682px;
-  }
-
-  .carousel-item img {
-    height: 250px;
-    width: 200px;
-  }
-
-  .img-container img {
-    height: 220px;
-    width: 100vw;
-  }
-
-  .caption-container .caption{
-    font-size: 60px;
   }
 
   /*Contact*/
