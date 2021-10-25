@@ -14,7 +14,7 @@
 }
 
 .head-container-main{
-  height: 262px;
+  height:262px;
   position: relative;
 }
 
@@ -30,12 +30,12 @@
 }
 
 .carousel-inner {
-  width: 60vw;
-  top: 20vh;
+  width: 280px;
+  top: 8vh;
 }
 
 .carousel-item img {
-  height: 260px;
+  height: 300px;
   filter: grayscale();
 }
 
@@ -44,7 +44,7 @@
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: 50%;
+  top: 96%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -67,8 +67,8 @@
 }
 
 .bar-vert {
-  width: 62vw;
-  height: 2vh;
+  width: 280px;
+  height: 25px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -77,21 +77,21 @@
 }
 
 .bar-hor{
-  width: 2vw;
-  height: 30vh;
+  width: 10px;
+  height: 250px;
   background-color: rgb(255, 255, 255);
 }
 
 .mid{
-  margin: 0 9vw;
+  margin: 0 40px;
 }
 
 .left{
-  margin: 0 9vw 0 0;
+  margin: 0 40px 0 0;
 }
 
 .right{
-  margin: 0 0 0 9vw;
+  margin: 0 0 0 40px;
 }
 
 .offcanvas {
@@ -138,14 +138,14 @@
 .links{
   color: rgb(0,0,0);
   position: absolute;
-  top: 56vh;
+  top: 140%;
   display: flex;
   align-items: center;
 }
 
 .links li{
   list-style: none;
-  margin: 1.5vh 0 1vh 0;
+  margin: 20px 0 10px 0;
   text-align: center;
 }
 
@@ -153,14 +153,14 @@
   
   text-decoration: none;
   color: rgb(0,0,0);
-  padding: 0 2vw 0 2vw;
-  font-weight: 700;
+  padding: 0 1.5vw 0 1.5vw;
+  font-weight: 600;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  position:relative;
+  position:absolute;
   bottom: 0;
   left: 0;
   width: 100vw;
@@ -178,11 +178,12 @@ footer ul {
 
 footer ul li{
   padding: 2px 10px;
+  font-size: 10px;;
 }
 
 footer .bi{
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
 }
 
 footer ul a{
@@ -296,6 +297,47 @@ form button {
 
 @media screen and (max-width: 600px) {
   
+  /* Home */
+
+  .carousel-inner{
+    width: 60vw;
+    top: 20vh;
+  }
+
+  .carousel-item img{
+    height: 260px;
+  }
+
+  .logo{
+    top: 50%;
+  }
+
+  .bar-vert{
+    width: 62vw;
+    height: 2vh;;
+  }
+
+  .bar-hor{
+    width: 2vw;
+    height: 30vh;
+  }
+
+  .mid{
+    margin: 0 9vw;
+  }
+
+  .left{
+    margin: 0 9vw 0 0;
+  }
+
+  .right{
+    margin: 0 0 0 9vw;;
+  }
+
+  .links{
+    top: 56vh;
+  }
+
   .offcanvas{
     width: 300px;
     max-width: none;
