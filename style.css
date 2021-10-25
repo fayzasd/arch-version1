@@ -31,7 +31,7 @@
 
 .carousel-inner {
   width: 280px;
-  top: 8vh;
+  top: 50px;
 }
 
 .carousel-item img {
@@ -94,6 +94,24 @@
   margin: 0 0 0 40px;
 }
 
+.inner-li{
+  display: flex;
+  height: 250px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.inner-li a{
+  text-decoration: none;
+  font-weight: 700;
+  opacity: 80%;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: end;
+  writing-mode:vertical-rl;
+  text-orientation: mixed;
+}
+
 .offcanvas {
   width: 200px;
   background-color: black;
@@ -133,28 +151,6 @@
   top: 65%;
   left: 2%;
   opacity: 70%;
-}
-
-.links{
-  color: rgb(0,0,0);
-  position: absolute;
-  top: 140%;
-  display: flex;
-  align-items: center;
-}
-
-.links li{
-  list-style: none;
-  margin: 20px 0 10px 0;
-  text-align: center;
-}
-
-.links li a {
-  
-  text-decoration: none;
-  color: rgb(0,0,0);
-  padding: 0 1.5vw 0 1.5vw;
-  font-weight: 600;
 }
 
 footer {
@@ -300,12 +296,12 @@ form button {
   /* Home */
 
   .carousel-inner{
-    width: 60vw;
-    top: 20vh;
+    width: 230px;
+    top: 65%;
   }
 
   .carousel-item img{
-    height: 260px;
+    height: 250px;
   }
 
   .logo{
@@ -313,29 +309,25 @@ form button {
   }
 
   .bar-vert{
-    width: 62vw;
-    height: 2vh;;
+    width: 250px;
+    height: 10px;;
   }
 
   .bar-hor{
-    width: 2vw;
-    height: 30vh;
+    width: 10px;
+    height: 250px;
   }
 
   .mid{
-    margin: 0 9vw;
+    margin: 0 35px;
   }
 
   .left{
-    margin: 0 9vw 0 0;
+    margin: 0 35px 0 0;
   }
 
   .right{
-    margin: 0 0 0 9vw;;
-  }
-
-  .links{
-    top: 56vh;
+    margin: 0 0 0 35px;;
   }
 
   .offcanvas{
