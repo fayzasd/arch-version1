@@ -103,9 +103,10 @@
 
 .inner-li a{
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
   opacity: 80%;
   font-size: 20px;
+  height: 50px;
   color: rgb(255, 255, 255);
   transform-origin: 100px 140px;
   transform: rotate(-90deg);
@@ -345,6 +346,10 @@ form button {
 
   .right{
     margin: 0 0 0 35px;;
+  }
+
+  .inner-li{
+    padding-left: 90px;
   }
 
   .offcanvas{
