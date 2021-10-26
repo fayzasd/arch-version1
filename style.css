@@ -97,7 +97,7 @@
 .inner-li{
   display: flex;
   height: 250px;
-  padding-left: 5px;
+  padding-left: 100px;
   padding-bottom: 5px;
 }
 
@@ -105,11 +105,10 @@
   text-decoration: none;
   font-weight: 700;
   opacity: 80%;
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
-  text-align: end;
-  writing-mode:vertical-rl;
-  text-orientation: mixed;
+  transform-origin: 100px 140px;
+  transform: rotate(-90deg);
 }
 
 .offcanvas {
@@ -187,6 +186,24 @@ footer ul a{
   text-decoration: none;
   z-index: 1;
   font-weight: 400;  
+}
+
+/* Grid */
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  }
+
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
 }
 
 /*About*/
@@ -342,6 +359,14 @@ form button {
   
   .head-container-main{
     height: 682px;
+  }
+
+  /* Grid */
+
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   /*Contact*/
