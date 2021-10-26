@@ -13,6 +13,11 @@
   position: relative;
 }
 
+.head-container-gal{
+  height: 70px;
+  position: relative;
+}
+
 .head-container-main{
   height:262px;
   position: relative;
@@ -97,16 +102,17 @@
 .inner-li{
   display: flex;
   height: 250px;
-  padding-left: 108px;
+  padding-left: 50px;
   padding-top: 5px;
 }
 
 .inner-li a{
+  display: inline-block;
+  padding: 60px 170px 20px 0;
   text-decoration: none;
   text-transform: uppercase;
-  opacity: 80%;
   font-size: 15px;
-  height: 50px;
+  height: 30px;
   color: rgb(255, 255, 255);
   transform-origin: 100px 140px;
   transform: rotate(-90deg);
