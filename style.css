@@ -267,7 +267,7 @@ footer ul a{
   font-size: 15px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  bottom: 3px;
+  bottom: 2px;
   left: 3px;
 }
 
@@ -508,8 +508,8 @@ form button {
   }
 
   .gal-caption h2{
-    left: 5px; 
-    bottom: 5px;
+    left: 3px; 
+    bottom: 2px;
   }
 
   /*Contact*/
