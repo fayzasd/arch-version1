@@ -256,15 +256,30 @@ footer ul a{
   position: relative;
 }
 
+.gal-caption-2{
+  position: relative;
+}
+
 .gal-caption h2{    
   position: absolute;
   font-weight: 400;
   font-size: 25px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  bottom: 5px;
-  left: 15px;
+  bottom: 0px;
+  left: 5px;
 }
+
+.gal-caption-2 h2{    
+  position: absolute;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  bottom: 0px;
+  left: 10px;
+}
+
 
 .flex-gallery {
   display: flex;
@@ -489,6 +504,11 @@ form button {
   .flex-gallery{
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .gal-caption h2{
+    left: 5px; 
+    bottom: 0;
   }
 
   /*Contact*/
