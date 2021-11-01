@@ -80,7 +80,6 @@
   margin: 4px;
   width: 80px;
   height: 250px;
-  /* background-color: rgb(5, 5, 5); */
 }
 
 .bar-ab-2 {
@@ -91,7 +90,6 @@
   margin: 4px;
   width: 80px;
   height: 250px;
-  /* background-color: rgb(5, 5, 5); */
 }
 
 .bar-ab-3 {
@@ -102,7 +100,7 @@
   margin: 4px;
   width: 80px;
   height: 250px;
-  /* background-color: rgb(5, 5, 5); */
+
 }
 
 .bar {
@@ -204,7 +202,7 @@ footer {
   display: flex;
   justify-content: center;
   position:relative;
-  top: 42vh;
+  top: 70vh;
   width: 100vw;
   flex-wrap: wrap;
   color: black;
@@ -378,9 +376,9 @@ footer ul a{
   flex-direction: column;
 }
 
-.contact-content h4{
+.contact-content h5{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -446,12 +444,12 @@ form button {
   /* Home */
 
   .carousel-inner{
-    width: 230px;
-    top: 65%;
+    width: 240px;
+    top: 75%;
   }
 
   .carousel-item img{
-    height: 250px;
+    height: 235px;
   }
 
   .logo{
@@ -460,12 +458,14 @@ form button {
 
   .bar-vert{
     width: 250px;
-    height: 10px;;
+    height: 10px;
   }
 
   .bar-hor{
     width: 10px;
-    height: 250px;
+    height: 245px;
+    margin: 0;
+    padding: 0;
   }
 
   .mid{
@@ -482,7 +482,8 @@ form button {
 
   .inner-li{
     padding-left: 40px;
-  }
+    padding-top: 1px;
+  } 
 
   .offcanvas{
     width: 210px;
