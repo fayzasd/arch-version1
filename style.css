@@ -31,12 +31,13 @@
 .logo-title-container{
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 17 0em;
+  margin-top: 25vh;
 }
 
 .carousel-inner {
   width: 280px;
-  top: 50px;
+  top: 0px;
 }
 
 .carousel-item img {
@@ -49,9 +50,9 @@
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: 96%;
+  /*top: 77%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .logo-2{
@@ -147,7 +148,7 @@
 
 .inner-li a{
   display: inline-block;
-  padding: 60px 170px 20px 0;
+  padding: 60px 170px 10px 0;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -195,7 +196,6 @@
   font-size: 120px;
   top: 65%;
   left: 2%;
-  opacity: 70%;
 }
 
 footer {
@@ -238,12 +238,9 @@ footer ul a{
 
 .grid { 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  justify-items: center;
-  padding-bottom: 10px;
-  padding-left: 80px;
-  padding-right: 80px;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  grid-gap: 5px;
+  align-items: stretch;
   }
 
 .grid img {
@@ -443,18 +440,17 @@ form button {
   
   /* Home */
 
+  .logo-title-container{
+    margin-top: 25vh;
+  }
+
   .carousel-inner{
     width: 240px;
-    top: 75%;
   }
 
   .carousel-item img{
     height: 235px;
-  }
-
-  .logo{
-    top: 50%;
-  }
+  } 
 
   .bar-vert{
     width: 250px;
@@ -463,7 +459,7 @@ form button {
 
   .bar-hor{
     width: 10px;
-    height: 245px;
+    height: 225px;
     margin: 0;
     padding: 0;
   }
@@ -483,7 +479,12 @@ form button {
   .inner-li{
     padding-left: 40px;
     padding-top: 1px;
+    height: 225px;
   } 
+  
+  .inner-li a{
+    padding-left: 20px;
+  }
 
   .offcanvas{
     width: 210px;
@@ -496,7 +497,7 @@ form button {
   }
   
   .head-container-main{
-    height: 682px;
+    height: 700px;
   }
 
   footer {
