@@ -407,31 +407,31 @@ form button {
   
   /* Home */
 
-  .logo-title-container{
+  /* .logo-title-container{
     margin-top: 25vh;
-  }
+  } */
 
-  .carousel-inner{
-    width: 240px;
+  /* .carousel-inner{
+    width: 252px;
   }
 
   .carousel-item img{
-    height: 235px;
-  } 
+    height: 300px;
+  }  */
 
-  .bar-vert{
-    width: 250px;
-    height: 10px;
-  }
+  /* .bar-vert{
+    width: 255px;
+    height: 5px;
+  } */
 
-  .bar-hor{
-    width: 10px;
-    height: 225px;
+  /* .bar-hor{
+    width: 1px;
+    height: 300px;
     margin: 0;
     padding: 0;
-  }
+  } */
 
-  .mid{
+  /* .mid{
     margin: 0 35px;
   }
 
@@ -441,9 +441,9 @@ form button {
 
   .right{
     margin: 0 0 0 35px;;
-  }
+  } */
 
-  .inner-li{
+  /* .inner-li{
     padding-left: 40px;
     padding-top: 1px;
     height: 225px;
@@ -451,7 +451,7 @@ form button {
   
   .inner-li a{
     padding-left: 20px;
-  }
+  } */
 
   .offcanvas{
     width: 210px;
