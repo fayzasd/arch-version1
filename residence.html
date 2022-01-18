@@ -38,37 +38,77 @@
       </div>
   </div>
   </header>
-  <ul class="flex-gallery">
-    <div class="gal-caption-2">
-    <li>
-      <img src="/images/Screenshot 2021-09-06 192801.png">
-      <h2>House</h2>
-    </li>
-    </div>
-    <li>
-      <img src="images/Screenshot 2021-09-06 192839.png" loading="lazy">
-    </li>
-    <li>
-      <img src="images/Screenshot 2021-09-06 192902.png" loading="lazy">
-    </li>
-    <li>
-      <img src="images/Screenshot 2021-09-06 192926.png" loading="lazy">
-    </li>
-    <li>
-      <img src="images/Screenshot 2021-09-06 192947.png" loading="lazy">
-    </li>
-    <li>
-      <img src="images/Screenshot 2021-09-06 192801.png" loading="lazy">
-    </li>
-    <li>
-      <img src="images/Screenshot 2021-09-06 192839.png" loading="lazy">
-    </li>
-    <li>
-      <img src="images/Screenshot 2021-09-06 192902.png" loading="lazy">
-    </li>
+  <main> 
+    <div class="grid">
+      <div class="caption">
+        <img src="3dor photos/01 Anas Nilambur.jpg">
+        <h2>Anas Nilambur</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/02 Ayoob Taliparamba.jpg">
+        <h2>Ayoob Taliparamba</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/04 Ashraf taliparamba.jpg">
+        <h2>Ashraf taliparamba</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/06 re shamsudheen kodungallur.jpg">
+        <h2>shamsudheen kodungallur</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/05 Rauf Irikkur.jpg">
+        <h2>Rauf Irikkur</h2>
+      </div>
+      <div class="caption">
+        <img src="/3dor photos/07 re latheef kondotty.jpg">
+        <h2>latheef kondotty</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/08 Binil Thamarassery.jpg">
+        <h2>Binil Thamarassery</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/03 Noushad Tirur.jpg">
+        <h2>Noushad Tirur</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/09 Noushad taliparamba.jpg">
+        <h2>Noushad taliparamba</h2>
+      </div>
+      <div class="caption">
+        <img src="3dor photos/10 Noushad Tirur 2.jpg">
+        <h2>Noushad Tirur</h2>
+      </div>
+      <div class="caption">
+        <img src="/3dor photos/11 Thoufeekh Nilambur.jpg">
+        <h2>Thoufeekh Nilambur</h2>
+      </div>
+      <div class="caption">
+        <img src="/3dor photos/12 Unais Mananthavady.jpg">
+        <h2>Unais Mananthavady</h2>
+      </div>
+
+      <div class="popup">
+        <span>&times;</span>
+        <img src="3dor photos/01 Anas Nilambur.jpg" alt="">
+      </div>
     
-    <!--  Adding an empty <li> here so the final photo doesn't stretch like crazy. Try removing it and see what happens!  -->
-    <li></li>
-  </ul>
+    </main>
+    </div>
+    
+    <script>
+      document.querySelectorAll('.grid .caption img').forEach(image =>{
+        image.onclick = () =>{
+          document.querySelector('.popup').style.display = 'block';
+          document.querySelector('.popup img').src = image.getAttribute('src');
+        }    
+      });
+
+      document.querySelector('.popup span').onclick = () =>{
+        document.querySelector('.popup').style.display = 'none';
+      }
+    </script>
+
 </body>
 </html>

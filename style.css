@@ -201,8 +201,8 @@
 footer {
   display: flex;
   justify-content: center;
-  position:relative;
-  top: 70vh;
+  position: relative;
+  top: 72vh;
   width: 100vw;
   flex-wrap: wrap;
   color: black;
@@ -238,92 +238,58 @@ footer ul a{
 
 .grid { 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
-  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px;
   align-items: stretch;
+  padding-left: 45px;
+  padding-right: 45px;
   }
 
 .grid img {
   max-width: 100%;
 }
 
-.gal-caption{
+.caption{
   position: relative;
 }
 
-.gal-caption-2{
-  position: relative;
-}
-
-.gal-caption h2{
+.caption h2{
   margin-bottom: 0;    
   position: absolute;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  bottom: 2px;
-  left: 3px;
+  bottom: 3px;
+  left: 5px;
 }
 
-.gal-caption-2 h2{    
+.popup{
+  position: fixed;
+  top: 0; left: 0;
+  background:rgb(0, 0, 0,.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.popup span{
   position: absolute;
-  font-weight: 400;
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  bottom:2px;
-  left: 10px;
+  top: 0; right: 10px;
+  font-size: 60px;
+  font-weight: 200;
+  color: white;
+  cursor: pointer;
+  z-index: 100;
 }
 
-
-.flex-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-
-.flex-gallery li {
-  height: 40vh;
-  flex-grow: 1;
-  padding: 5px;
-}
-
-.flex-gallery li:last-child {
-  flex-grow: 10;
-}
-
-.flex-gallery img {
-  max-height: 100%;
-  min-width: 100%;
+.popup img{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
   object-fit: cover;
-  vertical-align: bottom;
-}
-
-@media (max-aspect-ratio: 1/1) {
-  .flex-gallery li {
-    height: 30vh;
-  }
-}
-
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
-  .flex-gallery ul {
-    flex-direction: row;
-  }
-
-  .flex-gallery li {
-    height: auto;
-    width: 100%;
-  }
-  .flex-gallery img {
-    width: 100%;
-    max-height: 75vh;
-    min-width: 0;
-  }
-  .gal-caption h2{
-    bottom: 5px;
-    left: 15px
-  }
 }
 
 /*About*/
@@ -442,7 +408,7 @@ form button {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   
   /* Home */
 
@@ -507,25 +473,25 @@ form button {
   }
 
   footer {
-    top: 1vh;
+    top: 45vw;
     bottom: 20px;
   } 
   /* Grid */
 
   .grid{
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
   }
 
-  .flex-gallery{
-    padding-left: 10px;
-    padding-right: 10px;
+  .caption h2{
+    left: 5px; 
+    bottom: 3px;
+    font-size: 20px;
   }
 
-  .gal-caption h2{
-    left: 3.5px; 
-    bottom: 2px;
+  .popup img{
+    width: 95%;
   }
 
   /*Contact*/
