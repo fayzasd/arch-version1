@@ -75,29 +75,29 @@
   background-size: 180px;
   background-repeat: no-repeat;
   background-position: 25% 5%;
-  margin: 4px;
-  width: 80px;
-  height: 250px;
+  margin: 4.2px;
+  width: 79.5px;
+  height: 300px;
 }
 
 .bar-ab-2 {
   background-image: url("images/Screenshot\ 2021-09-16\ 151918.png");
-  background-size: 120px;
+  background-size: 160px;
   background-repeat: no-repeat;
   background-position: center top;
-  margin: 4px;
-  width: 80px;
-  height: 250px;
+  margin: 4.2px;
+  width: 79.5px;
+  height: 300px;
 }
 
 .bar-ab-3 {
   background-image: url("images/Screenshot\ 2021-09-16\ 151940.png");
-  background-size: 130px;
+  background-size: 150px;
   background-repeat: no-repeat;
   background-position: 60% 10%;
-  margin: 4px;
-  width: 80px;
-  height: 250px;
+  margin: 4.2px;
+  width: 79.5px;
+  height: 300px;
 
 }
 
