@@ -247,6 +247,7 @@ footer ul a{
 
 .grid img {
   max-width: 100%;
+  cursor: pointer;
 }
 
 .caption{
