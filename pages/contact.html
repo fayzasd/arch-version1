@@ -7,7 +7,7 @@
   <title>Contact</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body> 
   <header>
@@ -24,19 +24,19 @@
         <div class="offcanvas-body">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="../pages/about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="../pages/contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     <div class="logo-title-container">
-      <a href="index.html">
+      <a href="../index.html">
       <div class="logo-2">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -55,18 +55,19 @@
     </div>
   </main>
   <section>
+  <div class="form-container">
     <div class="submit-form">
-    <h2 class="subtitle">Submit</h2>
-    <form target="_blank" action="https://formsubmit.co/fayizasad@gmail.com" method="POST">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://sleepy-tereshkova-8966c2.netlify.app/thank.html">
-      <div class="form-row">
-        <input name="name" class="form-control" placeholder="Name" required>
-        <input name="email" class="form-control" placeholder="Email" required>
-      </div>
-        <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
-        <button type="submit" >Submit Form</button>
-    </form>
+      <form target="_blank" action="https://formsubmit.co/fayizasad@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://sleepy-tereshkova-8966c2.netlify.app/pages/thank.html">
+        <div class="form-row">
+          <input name="name" class="form-control" placeholder="Name" required>
+          <input name="email" class="form-control" placeholder="Email" required>
+        </div>
+          <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+          <button type="submit" >Submit Form</button>
+      </form>
+    </div>
   </div>
   </section>
 
