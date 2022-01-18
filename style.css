@@ -36,8 +36,8 @@
 }
 
 .carousel-inner {
-  width: 280px;
-  top: 0px;
+  width: 252px;
+  top: 5px;
 }
 
 .carousel-item img {
@@ -50,9 +50,6 @@
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  /*top: 77%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 .logo-2{
@@ -105,15 +102,15 @@
 }
 
 .bar {
-  margin: 4px;
-  width: 50px;
-  height: 170px;
+  margin: 2.75px;
+  width: 56.6px;
+  height: 200px;
   background-color: rgb(5, 5, 5);
 }
 
 .bar-vert {
-  width: 280px;
-  height: 25px;
+  width: 255px;
+  height: 5px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -122,37 +119,39 @@
 }
 
 .bar-hor{
-  width: 10px;
-  height: 250px;
+  width: 1px;
+  height: 300px;
   background-color: rgb(255, 255, 255);
 }
 
 .mid{
+  width: 5.5px;
   margin: 0 40px;
 }
 
 .left{
-  margin: 0 40px 0 0;
+  margin: 0 44px 0 0;
 }
 
 .right{
-  margin: 0 0 0 40px;
+  margin: 0 0 0 44px;
 }
 
 .inner-li{
   display: flex;
-  height: 250px;
-  padding-left: 50px;
-  padding-top: 5px;
+  height: 300px;
+  padding-left: 45px;
+  padding-top: 55px;
 }
 
 .inner-li a{
   display: inline-block;
-  padding: 60px 170px 10px 0;
+  padding: 60px 220px 10px 0px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
   height: 30px;
+  width: 280px;
   color: rgb(255, 255, 255);
   transform-origin: 100px 140px;
   transform: rotate(-90deg);
@@ -258,7 +257,7 @@ footer ul a{
   margin-bottom: 0;    
   position: absolute;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 23px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   bottom: 3px;
